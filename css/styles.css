@@ -110,6 +110,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 
 .auth-nav .auth:hover,
@@ -117,10 +118,13 @@ img {
   color: var(--accent-color);
 }
 
+
+
 .auth-nav {
   display: flex;
   gap: 50px;
   margin-left: auto;
+  
 }
 
 .auth-nav a {
@@ -136,7 +140,26 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  
 }
+.auth {
+  display: flex;
+  align-items: center;
+  
+}
+
+.icon-svg {
+  display: inline-block;
+ margin-right: 10px;
+ fill: var(--main-text-color);
+}
+
+
+
+.auth-item {
+display: inline-block;
+} 
+
 
 .main-nav {
   display: flex;
@@ -299,6 +322,8 @@ img {
   background-color: var(--title-text-color);
   border-radius: 4px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .social-list {
@@ -318,6 +343,25 @@ img {
   
 }
 
+
+
+/* .client-title {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-dark-color);
+}
+
+.section-client {
+  padding-top: 94px;
+} */
+
 .social-icon {
   fill: rgba(175, 177, 184, 1);
 }
@@ -329,6 +373,49 @@ img {
 .social-link:hover .social-icon {
   fill: var(--title-text-color);
 }
+
+.client-title {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-dark-color);
+}
+
+.section-client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-item {
+  display: inline-block;
+  border: 1px solid 
+rgba(175, 177, 184, 1);
+border-radius: 4px;
+
+}
+
+.client-item {
+  display: inline-block;
+  
+  margin-top: 50px;
+ 
+}
+
+.client-item:not(:last-child) {
+  margin-right: 22px;
+}
+
+.client-item:hover .social-icon,
+.client-item:focus .social-icon {
+  fill: var(--accent-color);
+}
+
 
 
 
@@ -380,6 +467,37 @@ footer {
 .last {
   padding-bottom: 60px;
   padding-top: 60px;
+}
+
+.link-icon {
+  margin-left: 70px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);
+ margin-top: 72px;
+
+ text-align: left;
+}
+
+ .social-item {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon {
+  fill: var(--main-text-color);
 }
 
 /* Portfolio */
