@@ -211,6 +211,21 @@ img {
   color: var(--main-text-color);
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px; 
+  background-color: var(--portfolio-buttons-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  text-align: center;
+  gap: 30px;
+}
+
+
+
+
 .list h3 {
   margin-bottom: 10px;
 }
@@ -220,20 +235,6 @@ img {
   gap: 30px;
 }
 
-/* .list-item::before {
-  display: block;
-  content: "";
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(245, 244, 250, 1);
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-image: url(../images/antenna\ 1.svg);
-  outline: 1px solid red;
-  height: 120px;
-
-} */
 
 .section:not(:first-child) {
   padding-bottom: 94px;
