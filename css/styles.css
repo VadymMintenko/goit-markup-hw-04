@@ -128,36 +128,44 @@ img {
 }
 
 .auth-nav a {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
+
 .auth {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
   
-}
-.auth {
   display: flex;
   align-items: center;
+  color: var(--main-text-color);
+  gap: 10px;
+ 
   
 }
 
 .icon-svg {
-  display: inline-block;
- margin-right: 10px;
  fill: var(--main-text-color);
+ gap: 10px;
 }
+
+.auth-item:hover .icon-svg,
+.auth-item:focus .icon-svg {
+  fill: var(--accent-color);
+}
+
+
 
 
 
 .auth-item {
 display: inline-block;
+
 } 
 
 
